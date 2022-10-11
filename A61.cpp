@@ -14,6 +14,7 @@ int main ()
         cout << "invalid input." << endl;
         cout << "Enter in your range from [from, to]: " << endl;
         cin >> begin >> end;
+        y = inputValid(begin, end); // validation
     }
     prime(begin, end); 
     
