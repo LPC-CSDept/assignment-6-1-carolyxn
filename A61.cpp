@@ -11,6 +11,7 @@ int main ()
     y = inputValid(begin, end);// validation
     while (!y)
     {
+        cout << "invalid input." << endl;
         cout << "Enter in your range from [from, to]: " << endl;
         cin >> begin >> end;
     }
