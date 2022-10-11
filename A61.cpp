@@ -9,8 +9,11 @@ int main ()
     cin >> begin >> end;
     
     y = inputValid(begin, end);// validation
-    if (!y)
-        exit(0);
+    while (!y)
+    {
+        cout << "Enter in your range from [from, to]: " << endl;
+        cin >> begin >> end;
+    }
     prime(begin, end); 
     
 }
