@@ -89,5 +89,3 @@ int main()
     
 	cout << "Prime numbers: " << pnum1 << ", " << pnum2 << ", " << pnum3;
 }
-
-
